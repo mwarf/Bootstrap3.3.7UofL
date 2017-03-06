@@ -99,8 +99,13 @@
 
 		wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.min.css', '', '3.3.7', 'all' );
 		wp_enqueue_style( 'bootstrap' );
+		
 		wp_register_style( 'screen', get_stylesheet_directory_uri().'/css/font-awesome.min.css', '', array(), 'screen' );
 		wp_enqueue_style( 'screen' );
+		
+		wp_register_style( 'bs-theme', get_stylesheet_directory_uri().'/css/bootstrap-theme.min.css', '', array(), 'screen' );
+		wp_enqueue_style( 'bs-theme' );
+		
 		wp_register_style( 'custom', get_stylesheet_directory_uri().'/style.css', '', array(), 'screen' );
 		wp_enqueue_style( 'custom' );
 	}
