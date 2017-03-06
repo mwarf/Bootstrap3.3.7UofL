@@ -1,0 +1,21 @@
+/*
+Theme Name: 	Bootsrap 3.3.7
+Theme URI: 		babobski.nl
+Description: 	Bootstrap on Wordpress
+Version: 		1.1
+Author: 		bob de haas
+Author URI: 	http://babobski.nl
+Tags: 			babobski, bootstrap, basis thema
+*/
+.footer ul li {
+	list-style-type:none;
+	padding:0 0 5px 0;
+}
+.footer #global-footer {
+	background:#eee;
+	padding-top:10px;
+}
+.footer #util-footer {
+	background:#eee;
+}
+
