@@ -9,7 +9,36 @@ Tags: 			babobski, bootstrap, basis thema
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
 
+.navbar .container-fluid, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+}
 
+
+div.site-header-brand {
+	height:115px;
+	}
+	div.unit-header-pinstripe {
+	height:4px;
+	background-color:#06559e;
+	}
+	
+div.unit-header-brand {
+	height:60px;
+	background-color:#06559e;
+	padding:14px 0 0 0;
+	color:#fff;
+	font-size:x-large;
+	font-weight:700;
+	text-transform: uppercase;
+	
+}
+
+	nav.navbar.navbar-default {
+	margin-bottom:0;
+}
 .down-arrow{
 	font-size:140%;
 	color:white;
@@ -36,7 +65,7 @@ h1.display-2 {
 }
 h2 {	
 text-transform:uppercase;
-font-size:medium;
+font-size:large;
 font-weight:700;
 }
 

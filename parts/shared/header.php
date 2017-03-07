@@ -1,4 +1,28 @@
-<nav class="navbar navbar-default">
+ <div class="container-fluid">
+	 
+	<div class="row unit-header-pinstripe">
+		  <div class="col-md-12">
+		  &nbsp;
+		  </div>
+	  </div>
+	  
+	   <div class="row site-header-brand">
+		  <div class="col-md-6">
+		  logo goes here</div>
+		  <div class="col-md-6">
+		  other stuff goes here</div>
+	  </div>
+	  <div class="row unit-header-brand">
+		  <div class="col-md-12">
+		  <?php bloginfo('name'); ?></div>
+		  </div>
+	  </div>
+	  
+	  </div>
+	  
+	  
+	  
+	  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
@@ -8,7 +32,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                <?php bloginfo('name'); ?>
+                <!--<?php bloginfo('name'); ?>-->
         </a>
     </div>
 	<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
@@ -23,12 +47,12 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-		<?php get_search_form(); ?>
+		<!--<?php get_search_form(); ?>-->
 	</div>
   </div>
 </nav>
-<?php
+<!--<?php
 if( function_exists( 'lana_breadcrumb' ) ) {
     echo lana_breadcrumb();
 }
-?>
+?>-->
