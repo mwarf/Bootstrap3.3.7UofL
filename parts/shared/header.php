@@ -8,9 +8,10 @@
 	  
 	   <div class="row site-header-brand">
 		  <div class="col-md-6">
-		  logo goes here</div>
+		  <img class="logoImage" src="/wordpress/wp-content/themes/Bootstrap3.3.7UofL/images/logo_rgb_noText.svg">
+		  </div>
 		  <div class="col-md-6">
-		  other stuff goes here</div>
+		  <!--other stuff goes here--></div>
 	  </div>
 	  <div class="row unit-header-brand">
 		  <div class="col-md-12">

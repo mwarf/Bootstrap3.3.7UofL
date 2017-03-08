@@ -9,13 +9,19 @@ Tags: 			babobski, bootstrap, basis thema
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
 
-.navbar .container-fluid, .navbar-collapse {
+img.logoImage {
+	width:60px;
+	padding:0;
+	margin:0;
+	
+}
+
+/*.navbar .container-fluid, .navbar-collapse {
     padding-left:0;
 }
 .navbar-collapse.in {
     padding-left:30px;
-}
-
+}*/
 
 div.site-header-brand {
 	height:115px;
@@ -28,7 +34,7 @@ div.site-header-brand {
 div.unit-header-brand {
 	height:60px;
 	background-color:#06559e;
-	padding:14px 0 0 0;
+	padding:10px 0 0 0;
 	color:#fff;
 	font-size:x-large;
 	font-weight:700;
@@ -45,51 +51,43 @@ div.unit-header-brand {
 	margin-top:20px;
 	}
 .lead {
-	font-size:415%;
-	line-height:130%;
-	font-weight:300;
-}
-
-/* h1.display-1 {
-	font-size:615%;
-	line-height:80%;
-	font-weight:700;
-	text-transform: uppercase;
-	color:white;
-
-}
-h1.display-2 {
 	font-size:215%;
 	line-height:130%;
 	font-weight:300;
 }
-h2 {	
-text-transform:uppercase;
-font-size:large;
-font-weight:700;
+
+.display-bold-inverse-1 {
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 0.8;
+  color:#fff!important;
+  text-transform: uppercase;
 }
 
+.display-bold-inverse-2 {
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color:#fff!important;
+  text-transform: uppercase;
+}
 
-h1.display-3 {
-	font-size:615%;
-	line-height:90%
-	font-weight:700;
+.display-bold-inverse-3 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color:#fff!important;
+  text-transform: uppercase;
 }
-h1.display-4 {
-	font-size:615%;
-	line-height:90%
-	font-weight:700;
+
+.display-bold-inverse-4 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color:#fff!important;
+  text-transform: uppercase;
 }
-h1.display-5 {
-	font-size:615%;
-	line-height:90%
-	font-weight:700;
-}
-h1.display-6 {
-	font-size:615%;
-	line-height:90%
-	font-weight:700;
-}*/
+
 
 .display-1 {
   font-size: 6rem;
@@ -139,17 +137,38 @@ h1.display-6 {
   line-height: 1.1;
 }
 
-
+/*h1,h2,h3,h4,h5,h6 {
+	text-transform:uppercase;
+	font-weight:700;
+}*/
 
 .footer ul li {
 	list-style-type:none;
 	padding:0 0 5px 0;
 }
 .footer #global-footer {
-	background:#eee;
+	background:#efefef;
 	padding-top:10px;
 }
 .footer #util-footer {
-	background:#eee;
+	background:#efefef;
 }
+
+/* jumbotron content*/
+.jumbotron {
+	 min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.destinationU {
+	background-image: url("http://localhost:8080/wordpress/wp-content/uploads/2017/03/An-Introduction-To-Shine_sunset.jpg");
+   
+    }
+.brandTenets {
+	background-image: url("http://localhost:8080/wordpress/wp-content/uploads/2017/03/An-Introduction-To-Shine_Final-34.jpg");
+   margin-top:40px;
+    }
+
 
