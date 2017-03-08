@@ -115,6 +115,31 @@ h1.display-6 {
   line-height: 1.1;
 }
 
+.display-bold-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.display-bold-2 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.display-bold-3 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.display-bold-4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+
 
 .footer ul li {
 	list-style-type:none;
