@@ -26,7 +26,7 @@ img.logoImage {
 div.site-header-brand {
 	height:115px;
 	}
-	div.unit-header-pinstripe {
+div.unit-header-pinstripe {
 	height:4px;
 	background-color:#06559e;
 	}
@@ -37,8 +37,8 @@ div.unit-header-brand {
 	padding:10px 0 0 0;
 	color:#fff;
 	font-size:x-large;
-	font-weight:700;
-	text-transform: uppercase;
+	font-weight:300;
+	/*text-transform: uppercase;*/
 	
 }
 
