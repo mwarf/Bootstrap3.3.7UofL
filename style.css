@@ -146,6 +146,8 @@ div.unit-header-brand {
 		font-size:12px;
 	}
 	
+	
+	
 .footer ul li {
 	list-style-type:none;
 	padding:0 0 6px 0;
@@ -163,9 +165,15 @@ div.unit-header-brand {
 	.footer #unit-footer a {
 	color:#434749;
 	}
+	.footer #util-footer a {
+	color:#e8e8e8;
+	}
+
 	.footer #global-footer .footer-heading {
 		color:#ececec;
 	}
+	
+	
 .footer-heading {
 	color:#434749;
 	font-size:16px;
