@@ -96,9 +96,10 @@
 					<li class="footer-heading">Contact Us</strong></li>
   <li>University of Lethbridge<br><span class="glyphicon glyphicon-map-marker"></span> 4401 University Drive<br> Lethbridge, Alberta<br> T1K3M4<br> Canada</li>
   <li><span class="glyphicon glyphicon-phone"></span> (403) 329-2111</li><br>
-  <li><a href="#"><i class="fa fa-facebook-square"></i> Campus Tours </li></a>
-  <li><a href="#"><i class="fa fa-facebook-square"></i> Map &amp; Directions </li></a>
-  <li><a href="http://directory.uleth.ca"> <span class="glyphicon glyphicon-list-alt"></span> Contact Directory</li>	</a>		
+  <li><a href="#"><i class="fa fa-map-signs"></i> Campus Tours </li></a>
+  <li><a href="#"><i class="fa fa-map"></i> Map &amp; Directions </li></a>
+  <li><a href="http://directory.uleth.ca"> <span class="glyphicon glyphicon-list-alt"></span> Contact Directory</li>	</a>
+  <li><a href="#"> <span class="glyphicon glyphicon-search"></span> University Search</li>	</a>		
 					</ul>
 				</div>
 			</div>
