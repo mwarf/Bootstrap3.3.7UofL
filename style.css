@@ -160,7 +160,9 @@ div.unit-header-brand {
 .footer #global-footer a {
 	color:#e8e8e8;
 	}
-	
+	.footer #unit-footer a {
+	color:#434749;
+	}
 	.footer #global-footer .footer-heading {
 		color:#ececec;
 	}

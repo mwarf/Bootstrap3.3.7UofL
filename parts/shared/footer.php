@@ -41,7 +41,7 @@
 	<div id="global-footer" class="container-fluid">
 		<div  class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<ul>
 					<li class="footer-heading">About Us</strong></li>
 					<!--<li><a href="#"><i class="fa fa-facebook-official"></i> ulethbridge.ca </li></a>
@@ -60,7 +60,7 @@
 					
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<ul>
 					<li class="footer-heading">Study</strong></li>
 					<li><a href="#">Undergrads </li></a>
@@ -75,7 +75,7 @@
 					
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<ul>
 					<li class="footer-heading">Information For</strong></li>
 					<li><a href="#">Applicants </li></a>
@@ -87,6 +87,16 @@
 					
 					</ul>
 				</div>
+				<div class="col-md-3">
+					<ul>
+					<li class="footer-heading">Social Media</strong></li>
+					<li><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span></li>
+					<li><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></span></li>
+					<li><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x"></i></span></li>
+					<li><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></li>
+					
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -95,7 +105,7 @@
 			<div class="row"><hr style="color:#fff;"></div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					&copy; 2017 University of Lethbridge | 4401 University Drive, Lethbridge, Alberta T1K 3M4 | Phone: (403) 329-2111
+					&copy; 2017 University of Lethbridge | 4401 University Drive, Lethbridge, Alberta T1K 3M4 | Phone: (403) 329-2111 
 				</div>
 			</div>
 		</div>
