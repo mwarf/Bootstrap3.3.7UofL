@@ -8,12 +8,59 @@ Author URI: 	http://babobski.nl
 Tags: 			babobski, bootstrap, basis thema
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+@import url('css/font-awesome.min.css');
+
+/* Navbar styles */
+.navbar-default {
+	font-size:14px;
+}
+ul.dropdown-menu {
+	font-size:14px;
+}
+
+/* Hidden Search Panel*/
+#hidden-search-panel {
+	
+}
+#hidden-search-panel-input {
+	padding-top:20px;
+}
+#hidden-search-panel-content {
+	font-size:12px;
+}
+
+#hidden-search-panel-content ul li {
+	list-style-type:none;
+	padding:6px 0 6px 0;
+	border-bottom:1px #efefef solid;
+
+}
+
+div.site-header-brand span.glyphicon-search:after{
+    content: "\f078";
+    font-family: 'Fontawesome';
+}
+div.site-header-brand span.glyphicon-search.collapsed:after{
+    content: "\f077";
+    font-family: 'Fontawesome';
+}
 
 img.logoImage {
 	width:60px;
 	padding:0;
 	margin:0;
 	
+}
+
+h1.contentHeading,
+h2.contentHeading,
+h3.contentHeading,
+h4.contentHeading,
+h5.contentHeading,
+h6.contentHeading {
+	text-transform: uppercase;
+	font-weight:700;
+	font-size:130%;
 }
 
 /*.navbar .container-fluid, .navbar-collapse {
@@ -90,25 +137,25 @@ div.unit-header-brand {
 
 
 .display-1 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.1;
 }
 
 .display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.display-3 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
 
-.display-4 {
+.display-3 {
   font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.display-4 {
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
@@ -143,7 +190,7 @@ div.unit-header-brand {
 }*/
 
 .footer  {
-		font-size:12px;
+		font-size:14px;
 	}
 	
 	
@@ -238,4 +285,18 @@ blockquote p:before {
     float: left;
     margin-right: 10px;
 }
+
+.breadcrumb {
+font-size:12px;
+}
+.breadcrumb > li {
+
+}
+.breadcrumb > li + li:before {
+
+}
+.breadcrumb > .active {
+  color: #777;
+}
+
 
