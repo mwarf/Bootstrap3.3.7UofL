@@ -142,17 +142,41 @@ div.unit-header-brand {
 	font-weight:700;
 }*/
 
+.footer  {
+		font-size:12px;
+	}
+	
 .footer ul li {
 	list-style-type:none;
-	padding:0 0 5px 0;
+	padding:0 0 6px 0;
+
 }
 .footer #global-footer {
-	background:#efefef;
+	background:#434749;
+	color:#e8e8e8;
 	padding-top:10px;
 }
-.footer #util-footer {
-	background:#efefef;
+
+.footer #global-footer a {
+	color:#e8e8e8;
+	}
+	
+	.footer #global-footer .footer-heading {
+		color:#ececec;
+	}
+.footer-heading {
+	color:#434749;
+	font-size:16px;
+	font-weight:300;
+	
 }
+
+.footer #util-footer {
+	background:#434749;
+	color:#e8e8e8;
+	padding-bottom: 10px;
+}
+
 
 /* jumbotron content*/
 .jumbotron {
