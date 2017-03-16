@@ -4,32 +4,19 @@
 		   <div id="hidden-search-panel" class="container collapse">
 			   <div id="hidden-search-panel-input" class="row">
 			   	<div class="col-md-12 text-center">
-				   	 <div class="well well-lg"><?php get_search_form(); ?><div class="input-group">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span> Search <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="#"> This website </a></li>
-          <li><a href="#">ulethbridge.ca</a></li>
-          <li><a href="#">Google search</a></li>
-        </ul>
-      </div><!-- /btn-group -->
-      <input type="text" class="form-control" placeholder="Enter keywords or phrases to search..." aria-label="...">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-    </div><!-- /input-group -->
-    </div>
+				   	 <div class="well well-lg"><?php get_search_form(); ?>
+    				</div>
 			   	</div>
 			   </div>
 			   <div id="hidden-search-panel-content" class="row">
-			   	<div class="col-md-3">
+			   	<div class="col-xs-6 col-md-3">
 				   	<ul>
 					   		<li><a href="#">The Bridge</a></li>
 					   		<li><a href="#">Web Tools</a></li>
 					   		<li><a href="#">University Directory</a></li>
 				   	</ul>
 			   	</div>
-			   	<div class="col-md-3">
+			   	<div class="col-xs-6 col-md-3">
 				   		<ul>
 					   		<li><a href="#">Academic Calendar</a></li>
 					   		<li><a href="#">Campus Map</a></li>
@@ -37,7 +24,7 @@
 				   	</ul>
 
 			   	</div>
-			   	<div class="col-md-3">
+			   	<div class="col-xs-6 col-md-3">
 				   		<ul>
 					   		<li><a href="#">Moodle</a></li>
 					   		<li><a href="#">Student Web Mail</a></li>
@@ -45,7 +32,7 @@
 				   	</ul>
 
 			   	</div>
-			   	<div class="col-md-3">
+			   	<div class="col-xs-6 col-md-3">
 				   		<ul>
 					   		<li><a href="#">2017 Graduate Viewbook (PDF)</a></li>
 					   		<li><a href="#">2017 Undergrad Viewbook (PDF)</a></li>

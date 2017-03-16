@@ -4,7 +4,7 @@
 		<div  class="container">
 			<div class="row"><hr class="my-4"></div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-xs-6 col-md-3">
 
   <ul>
 	  <li class="footer-heading">Arts & Science Advising</li>
@@ -15,7 +15,7 @@
   </ul>
 
 				</div>
-				<div class="col-md-3">
+				<div class="col-xs-6 col-md-3">
 					<ul>
 						<li class="footer-heading">Faculty of Arts &amp; Science</strong></li>
   <li><span class="glyphicon glyphicon-map-marker"></span> SU060 (Students' Union Building)</li>
@@ -24,15 +24,16 @@
   <li><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:communications@ulethbridge.ca">faculty@ulethbridge.ca</a></li>					
 					</ul>
 				</div>
-				<div class="col-md-3">
+				<div class="col-xs-6 col-md-3">
 					<ul>
 					<li class="footer-heading">Social Media</strong></li>
 					<li><a href="#"><i class="fa fa-facebook-official"></i> ulethbridge.ca </li></a>
 					<li><a href="#"><i class="fa fa-twitter"></i> @ulethbridge.ca </li></a>
 					<li><a href="#"><i class="fa fa-instagram"></i> @ulethbridge </li></a>
-					<li><a href="#"><i class="fa fa-linkedin-square"></i> ulethbridge </li></a>					</ul>				
+					<li><a href="#"><i class="fa fa-linkedin-square"></i> ulethbridge </li></a>					
+					</ul>				
 					</div>
-					<div class="col-md-3">
+					<div class="col-xs-6 col-md-3">
 					<ul>
 					<li class="footer-heading">Related Links</strong></li>
 					<li><a href="#">Maps &amp; Directions</a></li>
@@ -46,7 +47,7 @@
 	<div id="global-footer" class="container-fluid">
 		<div  class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-xs-6 col-md-3">
 					<ul>
 					<li class="footer-heading">About Us</strong></li>
 					
@@ -64,7 +65,9 @@
 					
 					</ul>
 				</div>
-				<div class="col-md-3">
+	
+ 
+				<div class="col-xs-6 col-md-3">
 					<ul>
 					<li class="footer-heading">Study</strong></li>
 					<li><a href="#">Undergrads </li></a>
@@ -79,7 +82,8 @@
 					
 					</ul>
 				</div>
-				<div class="col-md-3">
+				
+				<div class="col-xs-12 col-md-3">
 					<ul>
 					<li class="footer-heading">Information For</strong></li>
 					<li><a href="#">Applicants </li></a>
@@ -91,7 +95,8 @@
 					
 					</ul>
 				</div>
-				<div class="col-md-3">
+				
+				<div class="col-xs-12 col-md-3">
 					<ul>
 					<li class="footer-heading">Contact Us</strong></li>
   <li>University of Lethbridge<br><span class="glyphicon glyphicon-map-marker"></span> 4401 University Drive<br> Lethbridge, Alberta<br> T1K3M4<br> Canada</li>
