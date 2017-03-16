@@ -14,7 +14,9 @@
  */
 ?>
 <?php BsWp::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
 <?php if ( have_posts() ): ?>
 
 
@@ -34,5 +36,5 @@
 <?php else: ?>
 <h1><?php echo __('Nothing to show yet.', 'wp_babobski')?></h1>
 <?php endif; ?>
-
+		</div></div></div>
 <?php BsWp::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
