@@ -286,19 +286,5 @@ blockquote p:before {
     margin-right: 10px;
 }
 
-.breadcrumb {
-font-size:12px;
-margin-bottom:0;
-padding-bottom:0;
-}
-.breadcrumb > li {
-
-}
-.breadcrumb > li + li:before {
-
-}
-.breadcrumb > .active {
-  color: #777;
-}
 
 
