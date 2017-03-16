@@ -288,6 +288,8 @@ blockquote p:before {
 
 .breadcrumb {
 font-size:12px;
+margin-bottom:0;
+padding-bottom:0;
 }
 .breadcrumb > li {
 

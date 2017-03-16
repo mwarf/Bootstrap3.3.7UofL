@@ -105,7 +105,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!-- End Nav Bar-->
-	 <div class="container">
+	 <!--<div class="container">
 		 <?php
 if( function_exists( 'lana_breadcrumb' ) ) {
     echo lana_breadcrumb();
@@ -113,7 +113,7 @@ if( function_exists( 'lana_breadcrumb' ) ) {
 	?> 
 	 </div> 
 	  
-	  </div><!--[end parent container]-->
+	  </div>--><!--[end parent container]-->
 	   
 
 
