@@ -12,7 +12,9 @@
 <?php BsWp::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if ( have_posts() ): ?>
-<div class="content">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
 <h1><?php echo __('Search Results for', 'wp_babobski'); ?> '<?php echo get_search_query(); ?>'</h1>	
 <ul class="media-list">
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -25,9 +27,13 @@
 	</li>
 	<?php endwhile; ?>
 </ul>
-</div>
+		</div></div></div>
 <?php else: ?>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
 <h1><?php echo __('No results found for', 'wp_babobski'); ?> '<?php echo get_search_query(); ?>'</h1>
+</div></div></div>
 <?php endif; ?>
 
 <?php BsWp::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

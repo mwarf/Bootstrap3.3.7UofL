@@ -27,7 +27,7 @@
 <?php else : ?>
 <h1><?php echo __('Archive', 'wp_babobski'); ?></h1>	
 <?php endif; ?>
-
+			
 <ul class="media-list">
 	<?php while ( have_posts() ) : the_post(); ?>
 	<li class="media">
