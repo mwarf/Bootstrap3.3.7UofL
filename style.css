@@ -10,7 +10,15 @@ Tags: 			babobski, bootstrap, basis thema
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
 @import url('css/font-awesome.min.css');
 
-/* Navbar styles */
+/* Table of Contents
+	1.0 Navigation Styles
+	2.0 Hidden Search Panel Styles
+	3.0 General Header Styles
+	4.0 Typography
+	5.0 Footer 
+	*/
+
+/* 1.0 Navigation */
 .navbar-default {
 	font-size:14px;
 }
@@ -18,7 +26,9 @@ ul.dropdown-menu {
 	font-size:14px;
 }
 
-/* Hidden Search Panel*/
+/* End Navigation */
+
+/* Hidden Search Panel */
 #hidden-search-panel {
 	
 }
@@ -44,6 +54,9 @@ div.site-header-brand span.glyphicon-search.collapsed:after{
     content: "\f077";
     font-family: 'Fontawesome';
 }
+/* End Hidden Search Panel */
+
+/* 3.0 General Header */
 
 img.logoImage {
 	width:60px;
@@ -51,24 +64,6 @@ img.logoImage {
 	margin:0;
 	
 }
-
-h1.contentHeading,
-h2.contentHeading,
-h3.contentHeading,
-h4.contentHeading,
-h5.contentHeading,
-h6.contentHeading {
-	text-transform: uppercase;
-	font-weight:700;
-	font-size:130%;
-}
-
-/*.navbar .container-fluid, .navbar-collapse {
-    padding-left:0;
-}
-.navbar-collapse.in {
-    padding-left:30px;
-}*/
 
 div.site-header-brand {
 	height:115px;
@@ -92,6 +87,31 @@ div.unit-header-brand {
 	nav.navbar.navbar-default {
 	margin-bottom:0;
 }
+
+/*.navbar .container-fluid, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+}*/
+
+/* End General Header */
+
+/* 4.0 Typography */
+
+h1.contentHeading,
+h2.contentHeading,
+h3.contentHeading,
+h4.contentHeading,
+h5.contentHeading,
+h6.contentHeading {
+	text-transform: uppercase;
+	font-weight:700;
+	font-size:130%;
+}
+
+
+
 .down-arrow{
 	font-size:140%;
 	color:white;
@@ -184,10 +204,30 @@ div.unit-header-brand {
   line-height: 1.1;
 }
 
+
+blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+blockquote img {
+    margin-bottom: 10px;
+}
+
+blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
 /*h1,h2,h3,h4,h5,h6 {
 	text-transform:uppercase;
 	font-weight:700;
 }*/
+
+/* End Typography */
+
+/* 5.0 Footer */
 
 .footer  {
 		font-size:14px;
@@ -216,8 +256,8 @@ div.unit-header-brand {
 	color:#e8e8e8;
 	}
 
-	.footer #global-footer .footer-heading {
-		color:#ececec;
+	.footer #global-footer ul li.footer-heading {
+		color:#ffd400;
 	}
 	
 	
@@ -234,8 +274,19 @@ div.unit-header-brand {
 	padding-bottom: 10px;
 }
 
+.footer #util-footer a {
+	text-decoration:none;
+}
 
-/* jumbotron content*/
+
+
+
+
+/* End Footer */
+
+
+
+/* Misc. Styles for Demo - Jumbotron */
 .jumbotron {
 	 min-height: 50%;
     background-repeat: no-repeat;
@@ -248,12 +299,12 @@ div.unit-header-brand {
    color:#fff!important;
     }
     
-    .markinU {
+.markinU {
 	background-image: url("/wordpress/wp-content/uploads/2017/03/markin_hall.jpg");
 	display: block;
     }  
     
-    h1.display-bold-inverse-special {
+h1.display-bold-inverse-special {
 	    background-color: #FFD400!important;
 		padding: 10px 0;
 		display: inline;
@@ -269,22 +320,7 @@ div.unit-header-brand {
 	color:#fff!important;
    margin-top:40px;
     }
-/*Testimonal Blockquote*/
-blockquote {
-    border-left: none; 
-    margin: 0;
-}
 
-blockquote img {
-    margin-bottom: 10px;
-}
-
-blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
 
 
 
