@@ -324,6 +324,376 @@ blockquote p:before {
 
 /* End Footer */
 
+/* Extend Bootstrap to include step indicators */
+.nav-steps {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    word-wrap: break-word;
+    margin-left: 0;
+    padding: 0
+}
+
+.nav-steps>li {
+    display: table-cell;
+    max-width: 150px;
+    min-width: 75px;
+    text-align: center;
+    padding: 0 10px
+}
+
+.nav-steps>li>a,
+.nav-steps>li>span {
+    display: block;
+    font-weight: 600;
+    outline: none;
+    padding-top: 25px;
+    position: relative
+}
+
+.nav-steps>li>a:before,
+.nav-steps>li>span:before {
+    background: #004C97;
+    border-radius: 100%;
+    content: "";
+    box-shadow: 0 0 0 3px #f5f5f5;
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: 3px;
+    width: 10px
+}
+
+.nav-steps li+li>span:after,
+.nav-steps li+li>a:after {
+    background: #004C97;
+    border: solid #f5f5f5;
+    border-width: 2px 0;
+    box-shadow: -5px 0 0 -2px #004C97, 5px 0 0 -2px #004C97;
+    content: "";
+    height: 8px;
+    left: -50%;
+    margin-left: -14px;
+    margin-right: 6px;
+    position: absolute;
+    right: 50%;
+    top: 4px
+}
+
+.nav-steps .active~li {
+    color: #707070
+}
+
+.nav-steps .active~li>span:before,
+.nav-steps .active~li>a:before {
+    background-color: #cccccc
+}
+
+.nav-steps .active~li>span:after,
+.nav-steps .active~li>a:after {
+    background-color: #f5f5f5;
+    box-shadow: none
+}
+
+.nav-steps.nav-stacked {
+    display: block;
+    counter-reset: test
+}
+
+.nav-steps.nav-stacked>li {
+    text-align: left;
+    display: block;
+    max-width: none;
+    min-width: 0;
+    padding: 11px 0 10px 50px
+}
+
+.nav-steps.nav-stacked>li>a,
+.nav-steps.nav-stacked>li>span {
+    padding-top: 0
+}
+
+.nav-steps.nav-stacked>li>a:before,
+.nav-steps.nav-stacked>li>span:before {
+    left: -35px;
+    top: 0;
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    content: counter(test);
+    counter-increment: test;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 0 3px #004C97
+}
+
+.nav-steps.nav-stacked>li.active>a:before,
+.nav-steps.nav-stacked>li.active>span:before {
+    color: #004C97;
+    background: #fff;
+    box-shadow: 0 0 0 3px #004C97
+}
+
+.nav-steps.nav-stacked>li.active~li>span:before,
+.nav-steps.nav-stacked>li.active~li>a:before {
+    color: #444;
+    background: #fff;
+    box-shadow: 0 0 0 3px #f5f5f5
+}
+
+.nav-steps.nav-stacked li+li>span:after,
+.nav-steps.nav-stacked li+li>a:after {
+    top: -100%;
+    height: 100%;
+    bottom: 0;
+    left: -27px;
+    border-width: 0 0;
+    right: 0;
+    width: 3px;
+    margin-left: 0
+}
+
+.nav-dots {
+    display: block;
+    padding-left: 0
+}
+
+.nav-dots>li {
+    display: inline-block
+}
+
+.nav-dots>li>a {
+    margin-right: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    text-indent: 100%;
+    background-color: #ddd
+}
+
+.nav-dots>li:last-child>a {
+    margin-right: 0
+}
+
+.nav-dots>li.active>a {
+    background-color: #aaa
+}
+
+/* End Step Indicators */
+
+/* Extending Pattern Library to Include Cards */
+.card {
+    position: relative;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 2px
+}
+
+.card-block {
+    padding: 15px
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: .5em
+}
+
+.card-subtitle {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.card-text:last-child {
+    margin-bottom: 0
+}
+
+.card-link {
+    text-decoration: none
+}
+
+.card-link+.card-link {
+    margin-left: 8px
+}
+
+.card>.list-group:first-child .list-group-item:first-child {
+    border-radius: 2px 2px 0 0
+}
+
+.card>.list-group:last-child .list-group-item:last-child {
+    border-radius: 0 0 2px 2px
+}
+
+.card-header {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd
+}
+
+.card-header:first-child {
+    border-radius: 1px 1px 0 0
+}
+
+.card-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 1px 1px
+}
+
+.card-primary {
+    background-color: #004C97;
+    border-color: #004C97
+}
+
+.card-success {
+    background-color: #008139;
+    border-color: #008139
+}
+
+.card-info {
+    background-color: #1596D1;
+    border-color: #1596D1
+}
+
+.card-warning {
+    background-color: #f3d54e;
+    border-color: #f3d54e
+}
+
+.card-danger {
+    background-color: #AC2B37;
+    border-color: #AC2B37
+}
+
+.card-inverse .card-header,
+.card-inverse .card-footer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+}
+
+.card-inverse .card-header,
+.card-inverse .card-footer,
+.card-inverse .card-title,
+.card-inverse .card-blockquote {
+    color: #fff
+}
+
+.card-inverse .card-link,
+.card-inverse .card-text,
+.card-inverse .card-blockquote>footer {
+    color: rgba(255, 255, 255, 0.65)
+}
+
+.card-inverse .card-link:hover,
+.card-inverse .card-link:focus {
+    color: #fff
+}
+
+.card-blockquote {
+    padding: 0;
+    margin-bottom: 0;
+    border-left: 0
+}
+
+.card-img {
+    border-radius: 2px
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px
+}
+
+.card-img-top {
+    border-radius: 2px 2px 0 0
+}
+
+.card-img-bottom {
+    border-radius: 0 0 2px 2px
+}
+
+.card-deck {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 8px 0
+}
+
+.card-deck .card {
+    display: table-cell;
+    width: 1%;
+    vertical-align: top
+}
+
+.card-deck-wrapper {
+    margin-right: -8px;
+    margin-left: -8px
+}
+
+.card-group {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.card-group .card {
+    display: table-cell;
+    vertical-align: top
+}
+
+.card-group .card+.card {
+    margin-left: 0;
+    border-left: 0
+}
+
+.card-group .card:first-child .card-img-top {
+    border-top-right-radius: 0
+}
+
+.card-group .card:first-child .card-img-bottom {
+    border-bottom-right-radius: 0
+}
+
+.card-group .card:last-child .card-img-top {
+    border-top-left-radius: 0
+}
+
+.card-group .card:last-child .card-img-bottom {
+    border-bottom-left-radius: 0
+}
+
+.card-group .card:not(:first-child):not(:last-child) {
+    border-radius: 0
+}
+
+.card-group .card:not(:first-child):not(:last-child) .card-img-top,
+.card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
+    border-radius: 0
+}
+
+.card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 8px;
+    -moz-column-gap: 8px;
+    column-gap: 8px
+}
+
+.card-columns .card {
+    display: inline-block;
+    width: 100%
+}
+
+/* End adding Cards */
 
 
 /* Misc. Styles for Demo - Jumbotron */
