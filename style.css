@@ -229,10 +229,35 @@ blockquote p:before {
 
 /* 5.0 Footer */
 
+.footer #call-to-action {
+	 /* fix background */
+  background-attachment: fixed;
+
+  /* center it */
+  background-position: center center;
+
+  /* Scale it nicely to the element */
+  background-size: cover;
+  /* Blurrrrr    filter: blur(5px);
+   -webkit-filter: blur(5px); */
+
+    /* Housekeeping */
+	background-image: url("/wordpress/wp-content/uploads/2017/03/An-Introduction-To-Shine_Final-34.jpg");
+		font-size:24px;
+	font-weight:300;
+	/*text-transform: uppercase;*/
+	padding:20px 0 20px 0;
+	
+}
+
+.footer #call-to-action p{
+	padding:0;
+	margin:0;
+}
+
 .footer  {
 		font-size:14px;
 	}
-	
 	
 	
 .footer ul li {
@@ -241,7 +266,7 @@ blockquote p:before {
 
 }
 .footer #global-footer {
-	background:#434749;
+	background:#333333;
 	color:#e8e8e8;
 	padding-top:10px;
 }
@@ -249,33 +274,48 @@ blockquote p:before {
 .footer #global-footer a {
 	color:#e8e8e8;
 	}
-	.footer #unit-footer a {
-	color:#434749;
+
+.footer #unit-footer {
+	background-color:#f9f9f9;
+	padding-top:10px;
+	color:#384650;
 	}
-	.footer #util-footer a {
+.footer #unit-footer a {
+	color:#384650;
+	}
+.footer #util-footer a {
 	color:#e8e8e8;
 	}
 
-	.footer #global-footer ul li.footer-heading {
+.footer #global-footer ul li.footer-heading {
 		color:#ffd400;
+	}
+	
+	.footer #unit-footer ul li.footer-heading {
+		color:#384650;
 	}
 	
 	
 .footer-heading {
 	color:#434749;
-	font-size:16px;
-	font-weight:300;
-	
+	font-size:18px;
+	font-weight:300;	
 }
 
 .footer #util-footer {
-	background:#434749;
-	color:#e8e8e8;
+	background:#333333;
+	color:#f9f9f9;
 	padding-bottom: 10px;
+	
+}
+.footer #util-footer .footer-divider {
+	border-top: 1px solid #555;
+	padding:20px 0 20px 0;
 }
 
 .footer #util-footer a {
 	text-decoration:none;
+	color:#f9f9f9;
 }
 
 

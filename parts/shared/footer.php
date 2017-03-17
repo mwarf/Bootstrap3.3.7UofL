@@ -2,7 +2,7 @@
 <div class="footer">
 	<div id="unit-footer" class="container-fluid">
 		<div  class="container">
-			<div class="row"><hr class="my-4"></div>
+			<!--<div class="row"><hr class="my-4"></div>-->
 			<div class="row">
 				<div class="col-xs-6 col-md-3">
 
@@ -41,6 +41,15 @@
 
 					</ul>				
 					</div>
+			</div>
+		</div>
+	</div>
+	<div id="call-to-action" class="container-fluid">
+		<div  class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+				<p>Lorem ipsum dolar sit amet, call to action now! <a class="btn btn-default" href="#" role="button">Apply Now</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -112,8 +121,7 @@
 	</div>
 	<div id="util-footer" class="container-fluid">
 		<div  class="container">
-			<div class="row"><hr style="color:#fff;"></div>
-			<div class="row">
+			<div class="row footer-divider">
 				<div class="col-md-6 text-left">
 					&copy; 2017 University of Lethbridge 
 				</div>
