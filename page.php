@@ -15,7 +15,15 @@
  */
 ?>
 <?php BsWp::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-
+<div class="container">
+		 <?php
+if( function_exists( 'lana_breadcrumb' ) ) {
+    echo lana_breadcrumb();
+}
+	?> 
+	 </div> 
+	  
+	  </div>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 

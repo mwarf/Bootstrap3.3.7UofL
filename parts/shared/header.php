@@ -105,15 +105,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!-- End Nav Bar-->
-	 <!--<div class="container">
-		 <?php
-if( function_exists( 'lana_breadcrumb' ) ) {
-    echo lana_breadcrumb();
-}
-	?> 
-	 </div> 
-	  
-	  </div>--><!--[end parent container]-->
+
 	   
 
 

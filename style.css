@@ -26,6 +26,24 @@ ul.dropdown-menu {
 	font-size:14px;
 }
 
+.breadcrumb {
+  margin-bottom: 0;
+  background-color: #fff;
+  font-size:13px;
+  color:#bdbdbd;
+}
+.breadcrumb > li {
+}
+.breadcrumb > li + li:before {
+   content: "\f105";
+    font-family: 'Fontawesome';
+   
+}
+.breadcrumb > .active {
+  color: #777;
+}
+
+
 /* End Navigation */
 
 /* Hidden Search Panel */
