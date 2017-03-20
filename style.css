@@ -543,7 +543,9 @@ blockquote p:before {
     max-width: 150px;
     min-width: 75px;
     text-align: center;
-    padding: 0 10px
+    padding: 0 10px;
+	line-height: 1.42857143;
+
 }
 
 .nav-steps>li>a,
