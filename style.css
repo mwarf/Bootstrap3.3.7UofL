@@ -26,24 +26,6 @@ ul.dropdown-menu {
 	font-size:14px;
 }
 
-.breadcrumb {
-  margin-bottom: 0;
-  background-color: #fff;
-  font-size:13px;
-  color:#bdbdbd;
-}
-.breadcrumb > li {
-}
-.breadcrumb > li + li:before {
-   content: "\f105";
-    font-family: 'Fontawesome';
-   
-}
-.breadcrumb > .active {
-  color: #777;
-}
-
-
 /* End Navigation */
 
 /* Hidden Search Panel */
@@ -260,7 +242,7 @@ blockquote p:before {
    -webkit-filter: blur(5px); */
 
     /* Housekeeping */
-	background-image: url("/wordpress/wp-content/uploads/2017/03/An-Introduction-To-Shine_Final-34.jpg");
+	background-image: url("/wordpress/wp-content/uploads/2017/03/yellow_bokeh_background.jpg");
 		font-size:24px;
 	font-weight:300;
 	/*text-transform: uppercase;*/
@@ -337,172 +319,8 @@ blockquote p:before {
 }
 
 
-
-
-
 /* End Footer */
 
-/* Extend Bootstrap to include step indicators */
-.nav-steps {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-    word-wrap: break-word;
-    margin-left: 0;
-    padding: 0
-}
-
-.nav-steps>li {
-    display: table-cell;
-    max-width: 150px;
-    min-width: 75px;
-    text-align: center;
-    padding: 0 10px
-}
-
-.nav-steps>li>a,
-.nav-steps>li>span {
-    display: block;
-    font-weight: 600;
-    outline: none;
-    padding-top: 25px;
-    position: relative
-}
-
-.nav-steps>li>a:before,
-.nav-steps>li>span:before {
-    background: #004C97;
-    border-radius: 100%;
-    content: "";
-    box-shadow: 0 0 0 3px #f5f5f5;
-    height: 10px;
-    left: 50%;
-    margin-left: -5px;
-    position: absolute;
-    top: 3px;
-    width: 10px
-}
-
-.nav-steps li+li>span:after,
-.nav-steps li+li>a:after {
-    background: #004C97;
-    border: solid #f5f5f5;
-    border-width: 2px 0;
-    box-shadow: -5px 0 0 -2px #004C97, 5px 0 0 -2px #004C97;
-    content: "";
-    height: 8px;
-    left: -50%;
-    margin-left: -14px;
-    margin-right: 6px;
-    position: absolute;
-    right: 50%;
-    top: 4px
-}
-
-.nav-steps .active~li {
-    color: #707070
-}
-
-.nav-steps .active~li>span:before,
-.nav-steps .active~li>a:before {
-    background-color: #cccccc
-}
-
-.nav-steps .active~li>span:after,
-.nav-steps .active~li>a:after {
-    background-color: #f5f5f5;
-    box-shadow: none
-}
-
-.nav-steps.nav-stacked {
-    display: block;
-    counter-reset: test
-}
-
-.nav-steps.nav-stacked>li {
-    text-align: left;
-    display: block;
-    max-width: none;
-    min-width: 0;
-    padding: 11px 0 10px 50px
-}
-
-.nav-steps.nav-stacked>li>a,
-.nav-steps.nav-stacked>li>span {
-    padding-top: 0
-}
-
-.nav-steps.nav-stacked>li>a:before,
-.nav-steps.nav-stacked>li>span:before {
-    left: -35px;
-    top: 0;
-    margin: 0;
-    height: 20px;
-    width: 20px;
-    content: counter(test);
-    counter-increment: test;
-    text-align: center;
-    color: #fff;
-    box-shadow: 0 0 0 3px #004C97
-}
-
-.nav-steps.nav-stacked>li.active>a:before,
-.nav-steps.nav-stacked>li.active>span:before {
-    color: #004C97;
-    background: #fff;
-    box-shadow: 0 0 0 3px #004C97
-}
-
-.nav-steps.nav-stacked>li.active~li>span:before,
-.nav-steps.nav-stacked>li.active~li>a:before {
-    color: #444;
-    background: #fff;
-    box-shadow: 0 0 0 3px #f5f5f5
-}
-
-.nav-steps.nav-stacked li+li>span:after,
-.nav-steps.nav-stacked li+li>a:after {
-    top: -100%;
-    height: 100%;
-    bottom: 0;
-    left: -27px;
-    border-width: 0 0;
-    right: 0;
-    width: 3px;
-    margin-left: 0
-}
-
-.nav-dots {
-    display: block;
-    padding-left: 0
-}
-
-.nav-dots>li {
-    display: inline-block
-}
-
-.nav-dots>li>a {
-    margin-right: 4px;
-    display: inline-block;
-    border-radius: 50%;
-    height: 10px;
-    width: 10px;
-    overflow: hidden;
-    text-indent: 100%;
-    background-color: #ddd
-}
-
-.nav-dots>li:last-child>a {
-    margin-right: 0
-}
-
-.nav-dots>li.active>a {
-    background-color: #aaa
-}
-
-/* End Step Indicators */
-
-/* Extending Pattern Library to Include Cards */
 .card {
     position: relative;
     margin-bottom: 18px;
@@ -711,7 +529,164 @@ blockquote p:before {
     width: 100%
 }
 
-/* End adding Cards */
+.nav-steps {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    word-wrap: break-word;
+    margin-left: 0;
+    padding: 0
+}
+
+.nav-steps>li {
+    display: table-cell;
+    max-width: 150px;
+    min-width: 75px;
+    text-align: center;
+    padding: 0 10px
+}
+
+.nav-steps>li>a,
+.nav-steps>li>span {
+    display: block;
+    font-weight: 600;
+    outline: none;
+    padding-top: 25px;
+    position: relative
+}
+
+.nav-steps>li>a:before,
+.nav-steps>li>span:before {
+    background: #06559e;
+    border-radius: 100%;
+    content: "";
+    box-shadow: 0 0 0 3px #f5f5f5;
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: 3px;
+    width: 10px
+}
+
+.nav-steps li+li>span:after,
+.nav-steps li+li>a:after {
+    background: #06559e;
+    border: solid #f5f5f5;
+    border-width: 2px 0;
+    box-shadow: -5px 0 0 -2px #004C97, 5px 0 0 -2px #004C97;
+    content: "";
+    height: 8px;
+    left: -50%;
+    margin-left: -14px;
+    margin-right: 6px;
+    position: absolute;
+    right: 50%;
+    top: 4px
+}
+
+.nav-steps .active~li {
+    color: #707070
+}
+
+.nav-steps .active~li>span:before,
+.nav-steps .active~li>a:before {
+    background-color: #cccccc
+}
+
+.nav-steps .active~li>span:after,
+.nav-steps .active~li>a:after {
+    background-color: #f5f5f5;
+    box-shadow: none
+}
+
+.nav-steps.nav-stacked {
+    display: block;
+    counter-reset: test
+}
+
+.nav-steps.nav-stacked>li {
+    text-align: left;
+    display: block;
+    max-width: none;
+    min-width: 0;
+    padding: 11px 0 10px 50px
+}
+
+.nav-steps.nav-stacked>li>a,
+.nav-steps.nav-stacked>li>span {
+    padding-top: 0
+}
+
+.nav-steps.nav-stacked>li>a:before,
+.nav-steps.nav-stacked>li>span:before {
+    left: -35px;
+    top: 0;
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    content: counter(test);
+    counter-increment: test;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 0 3px #06559e
+}
+
+.nav-steps.nav-stacked>li.active>a:before,
+.nav-steps.nav-stacked>li.active>span:before {
+    color: #06559e;
+    background: #fff;
+    box-shadow: 0 0 0 3px #004C97
+}
+
+.nav-steps.nav-stacked>li.active~li>span:before,
+.nav-steps.nav-stacked>li.active~li>a:before {
+    color: #444;
+    background: #fff;
+    box-shadow: 0 0 0 3px #f5f5f5
+}
+
+.nav-steps.nav-stacked li+li>span:after,
+.nav-steps.nav-stacked li+li>a:after {
+    top: -100%;
+    height: 100%;
+    bottom: 0;
+    left: -27px;
+    border-width: 0 0;
+    right: 0;
+    width: 3px;
+    margin-left: 0
+}
+
+.nav-dots {
+    display: block;
+    padding-left: 0
+}
+
+.nav-dots>li {
+    display: inline-block
+}
+
+.nav-dots>li>a {
+    margin-right: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    text-indent: 100%;
+    background-color: #ddd
+}
+
+.nav-dots>li:last-child>a {
+    margin-right: 0
+}
+
+.nav-dots>li.active>a {
+    background-color: #aaa
+}
+
+
 
 
 /* Misc. Styles for Demo - Jumbotron */

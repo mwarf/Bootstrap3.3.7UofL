@@ -48,7 +48,7 @@
 		<div  class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-				<p>Lorem ipsum dolar sit amet, call to action now! <a class="btn btn-default" href="#" role="button">Apply Now</a></p>
+				<p>Shine at the University of Lethbridge <a class="btn btn-default" href="#" role="button">Apply Now</a></p>
 				</div>
 			</div>
 		</div>
