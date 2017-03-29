@@ -7,6 +7,7 @@ Author: 		bob de haas
 Author URI: 	http://babobski.nl
 Tags: 			babobski, bootstrap, basis thema
 */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
 @import url('css/font-awesome.min.css');
 
@@ -153,6 +154,12 @@ h6.contentHeading {
   line-height: 1.1;
   color:#fff;
   text-transform: uppercase;
+}
+
+
+.display-1,.display-2,.display-3,.display-4,.display-bold-1,.display-bold-2,.display-bold-3,.display-bold-4 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 
 
